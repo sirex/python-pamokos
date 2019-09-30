@@ -9,7 +9,7 @@
        >>> mocker.patch('builtins.input', return_value='Vardenis')
        <MagicMock name='input' id='...'>
 
-       >>> from learnpy.S01E01 import T01
+       >>> from S01E01 import T01
        >>> T01.main()
        Tavo vardas 'Vardenis'
 
@@ -23,7 +23,7 @@
        >>> mocker.patch('builtins.input', side_effect=[6, 3])
        <MagicMock name='input' id='...'>
    
-       >>> from learnpy.S01E01 import T02
+       >>> from S01E01 import T02
        >>> T02.main()
        a + b = 9
        a - b = 3
@@ -37,7 +37,7 @@
 
    .. code-block:: python
    
-       >>> from learnpy.S01E01 import T03
+       >>> from S01E01 import T03
        >>> T03.lyginiai(range(10))
        [0, 2, 4, 6, 8]
 
@@ -60,7 +60,7 @@
 
    .. code-block:: python
 
-       >>> from learnpy.S01E01 import T05
+       >>> from S01E01 import T05
    
        >>> T05.nelyginis(2)
        3
@@ -157,7 +157,7 @@
 
     .. code-block:: python
 
-        >>> from learnpy.S01E01 import T12
+        >>> from S01E01 import T12
 
         >>> T12.howlong('Foo')
         short
@@ -178,6 +178,6 @@
 
     .. code-block:: python
 
-        >>> from learnpy.S01E01 import T13
+        >>> from S01E01 import T13
         >>> T13.spausdink(42)
         42
