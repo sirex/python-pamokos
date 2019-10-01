@@ -18,6 +18,6 @@ upgrade: env/bin/pip-compile
 	env/bin/pip-compile --upgrade requirements-dev.in -o requirements-dev.txt
 
 test: env
-	env/bin/py.test -vvxra --log-level=debug --doctest-modules --doctest-glob='*.rst' .
+	env/bin/py.test -vvxra --log-level=debug --doctest-modules --doctest-glob='SOLUTION.rst' .
 
 .PHONY: env upgrade test
